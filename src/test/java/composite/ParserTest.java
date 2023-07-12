@@ -26,6 +26,6 @@ public class ParserTest
         expectedOutcome = Double.parseDouble(expected);
         assertEquals(expectedOutcome, outcome);
 
-        // Test
+        // Ni
     }
 }
