@@ -20,6 +20,6 @@ public class TestParser {
     void additionSubtraction() {
         Parser mainParser = new Expression("2+7+1+4");
         double outcome = mainParser.eval();
-        assertEquals(12, outcome);
+        assertEquals(14, outcome);
     }
 }
