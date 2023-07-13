@@ -2,3 +2,5 @@
 /Parser_Grammer_Example.jpg
 **/target
 /target 
+target/surefire-reports/TEST-composite.TestParser.xml
+target/surefire-reports/TEST-composite.TestParserMultiplication.xml
