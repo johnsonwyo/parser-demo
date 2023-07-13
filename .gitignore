@@ -1,3 +1,4 @@
 /Composite_Parser_ClassDiagram.png
 /Parser_Grammer_Example.jpg
-*/target/**
+**/target
+/target 
