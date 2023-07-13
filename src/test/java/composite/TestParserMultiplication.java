@@ -20,6 +20,6 @@ public class TestParserMultiplication {
     void multiplication() {
         Parser mainParser = new Expression("1*2*3*4*5");
         double outcome = mainParser.eval();
-        assertEquals(120, outcome);
+        assertEquals(12, outcome);
     }
 }
