@@ -17,9 +17,16 @@ public class TestParser {
     }
 
     @Test
-    void additionSubtraction() {
+    void addition() {
         Parser mainParser = new Expression("2+7+1+4");
         double outcome = mainParser.eval();
         assertEquals(14, outcome);
+    }
+
+    @Test
+    void multiplication() {
+        Parser mainParser = new Expression("1*2*3*4*5");
+        double outcome = mainParser.eval();
+        assertEquals(119, outcome);
     }
 }
