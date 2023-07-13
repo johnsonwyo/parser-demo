@@ -22,6 +22,4 @@ public class TestParserMultiplication {
         double outcome = mainParser.eval();
         assertEquals(120, outcome);
     }
-
-    // Commit
 }
