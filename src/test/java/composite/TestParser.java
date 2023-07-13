@@ -27,6 +27,6 @@ public class TestParser {
     void multiplication() {
         Parser mainParser = new Expression("1*2*3*4*5");
         double outcome = mainParser.eval();
-        assertEquals(119, outcome);
+        assertEquals(120, outcome);
     }
 }
